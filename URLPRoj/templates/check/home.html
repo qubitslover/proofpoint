@@ -1,0 +1,19 @@
+{% extends 'check/base.html' %}
+{% block content %}
+
+<div class="well">
+
+
+    <form action="/result/" method='POST' id="xerox"> {% csrf_token %}
+    {{form}}
+        <button class="btn btn-default" type="submit" form="xerox"> Submit </button>
+    </form>
+
+
+</div>
+{% endblock %}
+
+
+
+
+
