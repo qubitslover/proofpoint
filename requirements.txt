@@ -9,6 +9,6 @@ pipreqs==0.4.10
 pytz==2018.9
 requests==2.22.0
 Rest-Framework-Auth-Toolkit==0.10
-urllib3==1.25.8
+urllib3==1.26.5
 whitenoise==5.0.1
 yarg==0.1.9
